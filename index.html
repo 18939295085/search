@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="format-detection" content="telephone=no,address=no,email=no">
+		<meta name="mobileOptimized" content="width">
+		<meta name="handheldFriendly" content="true">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta content="" name="description">
+		<meta content="" name="keywords">
+		<title>书单来了</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body style="background: #f4f4f4">
+		<!--首页-->
+		<div class="ind-bg">
+			<div class="ind-logo">
+				<div class="ind-img">
+					<img src="image/logo.png" alt="">
+				</div>
+				<div class="ind-input">
+					<input type="search" placeholder="请输入书名或作者名">
+					<a class="ind-btn">搜索</a>
+				</div>
+			</div>
+		</div>
+		<!--搜索-->
+		<div class="search">
+			<div class="search-inp">
+				<input class="sears" type="text" placeholder="请输入书名或作者名">
+				<a class="search-btn">搜索</a>
+			</div>
+			<div class="sear-tab">
+				<p bookid="0" class="fl active">书籍</p>
+				<p bookid="1" class="rl">书单</p>
+			</div>
+			<div class="sear-cont">
+				<ul class="sear-book">
+					<li id="books">
+					</li>
+					<li id="dans" style="display: none">
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+	<script src="js/libyys-flexible.js"></script>
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/index.js"></script>
+
+</html>
